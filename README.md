@@ -2,13 +2,7 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
+This project was built to test beginners, learning javascript basic knowledge of the codebase, which will aid in there learning. This website allows students to test there knowledge, and could even give them an idea of what areas they should improve on. Throughout this project I was able to improve my knowledge in javascript, by create timer intervals, event listeners and utilising locla sotrage functions. 
 
 ## Usage
 
