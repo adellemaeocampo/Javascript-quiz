@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title> Javascript Quiz </title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body class="root">
+    <nav class="nav-bar">
+        <div class="left-buttons"> 
+            <button class="high-scores-btn">Veiw Highscores</button>
+            <button class="clear-scores-btn">Clear Scores</button>
+        </div>
+        <h2>Coding Quiz Challenge</h2>
+        <h3 class="time" style="text-align:right;"></h3>
+    </nav>
+
+    <div class="quiz-contianer">
+        <div class="quiz">
+            <h3 class="quiz-questions"></h3>
+            <div class="options"></div>
+        </div>
+
+        <div>
+
+            <div class="result-container" style="display: none;">
+                <h2 class="final-score"></h2>
+                <input type="text" class="initials-input" placeholder="Enter Initials" />
+                <button class="submit-score-btn" disabled>Submit Score</button>
+            </div>
+
+
+            <div class="time" style="text-align: right;"></div>
+
+        </div>
+
+        <div class="result-container">
+            <h3 class="final-score hidden"></h3>
+        </div>
+
+        <script src="./script.js"></script>
+</body>
+
+</html>
