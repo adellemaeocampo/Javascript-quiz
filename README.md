@@ -7,7 +7,10 @@ This project was built to test beginners, learning javascript basic knowledge of
 ## Usage
 
 The image belows shows what the password generator website
-https://github.com/adellemaeocampo/Javascript-quiz/blob/main/Screen%20Recording%202024-01-15%20at%2010.07.15%20pm.mov
+
+https://github.com/adellemaeocampo/Javascript-quiz/assets/152781829/36953816-90ec-4b3b-b093-7416021eb214
+
+
 
 
 
