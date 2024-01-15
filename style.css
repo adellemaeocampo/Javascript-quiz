@@ -1,0 +1,88 @@
+.root {
+    --text-col: white;
+    --button-col: #4AB2F9;
+    --font: sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.left-buttons, .time {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.high-scores-btn,
+.clear-scores-btn {
+    margin-right: 10px;  
+    margin-bottom: 10px;
+}
+
+.nav-bar h2 {
+    margin: 0;
+    padding-right: 80px;
+    font-size: 30px;
+}
+
+.left-end {
+    margin-left: auto;
+}
+
+.quiz {
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.quiz {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.options button {
+    width: 500px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.result-container {
+    text-align: center;
+}
+
+button {
+    color: var(--text-col);
+    background-color:var(--button-col);
+    border-radius: 10px;
+    border: var(--button-col);
+    padding: 10px;
+}
+
+h2, .time, h3, .options {
+    font-family: var(--font);
+}
+
+.initials-input {
+    padding: 10px;
+    border-radius: 15px;
+}
